@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Todo: put here your site title -->
+    <title>[Moses Mordi] | Developer</title>
+    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <meta
+      name="keywords"
+      content="[Moses], Web Developer"
+    />
+    <!-- Todo: improve your SEO by adding a small description of you -->
+    <meta name="description" content="Remote Junior Web Developer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./IMG/Logo-dark.webp"
+    />
+
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/utilities.css" />
+    <link rel="stylesheet" href="./CSS/media.css" />
+    <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+    <script defer src="./Scripts/scrollReveal.js"></script>
+    <script defer type="module" src="./index.js"></script>
+  </head>
+  <body>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero__section d_f ai_c fd_c">
+      <header>
+        <nav class="nav d_f jc_sb ai_c sticky">
+          <a href="#hero" class="logo">
+            <img
+              class="logo-icon logo-active"
+              src="./IMG/Logo-dark.webp"
+              alt="Logo image"
+            />
+            <!-- <img
+              class="logo-icon"
+              src="./IMG/Logo-light.webp"
+              alt="Logo image"
+            /> -->
+          </a>
+          <div class="switch-container">
+            <input type="checkbox" id="switch" />
+            <label for="switch">
+              <i class="fas fa-sun"></i>
+              <i class="fas fa-moon"></i>
+              <span class="ball"></span>
+            </label>
+          </div>
+        </nav>
+      </header>
+
+      <div class="hero__text-container d_f fd_c ai_s jc_c mw-medium">
+        <h1 class="hero__lead--text">
+          Hi, my name is <span>Moses Mordi</span><br />
+          I'm a Web Developer
+        </h1>
+        <a class="hero--button btn btn--primary" href="#about"> Know More</a>
+      </div>
+    </section>
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about__section">
+      <div class="about__container">
+        <h2 class="about--header ta_c header_primary">ABOUT ME</h2>
+        <div class="about__content d_f">
+          <div class="about__content--image d_f jc_c ai_c left__column">
+            <img src="./IMG/me.jpg" alt="A picture of me" />
+          </div>
+          <div class="about__content--text d_f fd_c jc_c right__column">
+            <p class="about__content--bio">
+              I am a Web developer, passionate about building impactful,
+              scalable social and technical systems. I also write technical
+              articles and actively participate in internship programs while
+              working trying to land tech roles.
+            </p>
+            <div class="tech__stack-container">
+              <h2 class="about__content--header">My Current Tech Stack</h2>
+              <ul class="tech__stack d_f">
+                <li class="tech__stack--skill">
+                  HTML5<i class="fa-brands fa-html5"></i>
+                </li>
+                <li class="tech__stack--skill">
+                  CSS3<i class="fa-brands fa-css3"></i>
+                </li>
+                <!--<li class="tech__stack--skill">
+                  Figma<i class="fa-brands fa-figma"></i>
+                </li>-->
+                <!--<li class="tech__stack--skill">
+                  SCSS<i class="fa-brands fa-sass"></i>
+                </li>-->
+                <li class="tech__stack--skill">
+                  Responsive design<i class="fa-solid fa-ruler-combined"></i>
+                </li>
+                <li class="tech__stack--skill">
+                  JavaScript ES6<i class="fa-brands fa-square-js"></i>
+                </li>
+                <li class="tech__stack--skill">
+                  Hashnode<i class="fa-brands fa-hashnode"></i>
+                </li>
+                <li class="tech__stack--skill">
+                  Technical Writing<i class="fa-solid fa-pen"></i>
+                </li>
+                <li class="tech__stack--skill">
+                  Git<i class="fa-solid fa-code-branch"></i>
+                </li>
+                <li class="tech__stack--skill">
+                  GitHub<i class="fa-brands fa-github"></i>
+                </li>
+              </ul>
+            </div>
+
+            <!-- <a class="about__content--button btn btn--light" href="#">
+              View Resume</a
+            > -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PROJECT SECTION -->
+    <div class="project__section">
+      <h2 class="project__section--header header_primary ta_c">
+        My Projects
+        <lord-icon
+          class="lord-icon"
+          src="https://cdn.lordicon.com/gakvfgma.json"
+          trigger="loop"
+          delay="1000"
+          colors="primary:#333"
+          style="width: 5rem; height: 5rem; font-weight: 700"
+        >
+        </lord-icon>
+      </h2>
+      <div class="project__container d_f mw-medium">
+        <div class="project__text--area d_f fd_c left__column hidden__left">
+          <h2 class="project__name header_secondary">Portfolio Website</h2>
+          <p class="project__description">
+            My first portfolio website which encapsulates all my current skills
+            in Web Development so far. It holds a number of projects I've worked
+            on, and some cool interactive features, feel free to mess around and
+            explore.
+          </p>
+          <div class="project__buttons d_f">
+            <a
+              class="btn btn--primary"
+              href="https://david-portfolio-main.netlify.app"
+              target="_blank"
+              >See Live</a
+            >
+            <a
+              class="btn btn--primary"
+              href="#"
+              target="_blank"
+              >View Source</a
+            >
+          </div>
+        </div>
+        <a
+          href="https://david-portfolio-main.netlify.app"
+          class="project__img--area right__column hidden__right"
+          target="_blank"
+        >
+          <img src="./IMG/Portfolio.webp" alt="Portfolio image preview" />
+        </a>
+      </div>
+      <div class="project__container d_f mw-medium">
+        <div class="project__text--area d_f fd_c left__column hidden__left">
+          <h2 class="project__name header_secondary">Space Tourism</h2>
+          <p class="project__description">
+            The beauty of our solar system and the idea of space travel served
+            as the inspiration for this project, which featured some fascinating
+            planets, our gallant space crew for the expeditions, and some of the
+            tools used in space exploration.
+          </p>
+          <div class="project__buttons d_f">
+            <a
+              class="btn btn--primary"
+              href="https://space-tourism-femc.netlify.app"
+              target="_blank"
+              >See Live</a
+            >
+            <a
+              class="btn btn--primary"
+              href="#"
+              target="_blank"
+              >View Source</a
+            >
+          </div>
+        </div>
+        <a
+          href="https://space-tourism-femc.netlify.app"
+          class="project__img--area right__column hidden__right"
+          target="_blank"
+        >
+          <img src="./IMG/Space-Tourism.webp" alt="Space Tourism Preview" />
+        </a>
+      </div>
+      <div class="project__container d_f mw-medium">
+        <div class="project__text--area d_f fd_c left__column hidden__left">
+          <h2 class="project__name header_secondary">Lazy Loading Article</h2>
+          <p class="project__description">
+            This is a technical article implementing image lazy loading using
+            JavaScript's Intersection Observer to improve website speed and
+            performance.
+          </p>
+          <div class="project__buttons d_f">
+            <a
+              class="btn btn--primary"
+              href="#"
+              target="_blank"
+              >See Live</a
+            >
+            <a
+              class="btn btn--primary"
+              href="#"
+              target="_blank"
+              >View Source</a
+            >
+          </div>
+        </div>
+        <a
+          href="#"
+          class="project__img--area right__column hidden__right"
+          target="_blank"
+        >
+          <img src="./IMG/Lazy-loading.webp" alt="Lazy Loading Preview" />
+        </a>
+      </div>
+      <div class="project__container d_f mw-medium">
+        <div class="project__text--area d_f fd_c left__column hidden__left">
+          <h2 class="project__name header_secondary">Widget Article</h2>
+          <p class="project__description">
+            This article discusses the creation of a widget that can display the
+            current weather, time, and date. It provides step-by-step
+            instructions and code examples to help readers build their own
+            weather widget. Whether you're a beginner or an experienced
+            developer, this tutorial has something for you.
+          </p>
+          <div class="project__buttons d_f">
+            <a
+              class="btn btn--primary"
+              href="#"
+              target="_blank"
+              >See Live</a
+            >
+            <a
+              class="btn btn--primary"
+              href="#"
+              target="_blank"
+              >View Source</a
+            >
+          </div>
+        </div>
+        <a
+          href="#"
+          class="project__img--area right__column hidden__right"
+          target="_blank"
+        >
+          <img src="./IMG/Widget-Article.webp" alt="Pseudo Elements Preview" />
+        </a>
+      </div>
+
+      <div class="project__container d_f mw-medium">
+        <div class="project__text--area d_f fd_c left__column hidden__left">
+          <h2 class="project__name header_secondary">Promises Article</h2>
+          <p class="project__description">
+            A Beginner's Guide to Understanding the Lifecycle of a JavaScript
+            Promise" is an article that provides a comprehensive introduction to
+            promises in JavaScript. It covers the basics of promises, as well as
+            more advanced topics such as handling errors and chaining promises.
+          </p>
+          <div class="project__buttons d_f">
+            <a
+              class="btn btn--primary"
+              href="#"
+              target="_blank"
+              >See Live</a
+            >
+            <a
+              class="btn btn--primary"
+              href="#"
+              target="_blank"
+              >View Source</a
+            >
+          </div>
+        </div>
+        <a
+          href="#"
+          class="project__img--area right__column hidden__right"
+          target="_blank"
+        >
+          <img src="./IMG/Promises.webp" alt="Pseudo Elements Preview" />
+        </a>
+      </div>
+
+      <div class="project__container d_f mw-medium">
+        <div class="project__text--area d_f fd_c left__column hidden__left">
+          <h2 class="project__name header_secondary">
+            Pseudo Elements Article
+          </h2>
+          <p class="project__description">
+            This is a technical article on CSS Pseudo elements explaining how to
+            use these elements to build custom aesthetic effects and animations
+            without using any additional libraries for frameworks.
+          </p>
+          <div class="project__buttons d_f">
+            <a
+              class="btn btn--primary"
+              href="#"
+              target="_blank"
+              >See Live</a
+            >
+            <a
+              class="btn btn--primary"
+              href="#"
+              target="_blank"
+              >View Source</a
+            >
+          </div>
+        </div>
+        <a
+          href="#"
+          class="project__img--area right__column hidden__right"
+          target="_blank"
+        >
+          <img src="./IMG/Pseudo-elements.webp" alt="Pseudo Elements Preview" />
+        </a>
+      </div>
+
+      <div class="project__container d_f mw-medium">
+        <div class="project__text--area d_f fd_c left__column">
+          <h2 class="project__name header_secondary">Blogr</h2>
+          <p class="project__description">
+            Blogr is a fascinating user-friendly publishing platform which aids
+            users to promote their online brand. Blogr features an exceedingly
+            intuitive interface which lets you focus on one thing: creating
+            content. The editor supports management of multiple blogs and allows
+            easy manipulation of embeds such as images, videos, and Markdown.
+          </p>
+          <div class="project__buttons d_f">
+            <a
+              class="btn btn--primary"
+              href="https://blogr-femc.netlify.app/"
+              target="_blank"
+              >See Live</a
+            >
+            <a
+              class="btn btn--primary"
+              href="#"
+              target="_blank"
+              >View Source</a
+            >
+          </div>
+        </div>
+        <a
+          href="https://blogr-femc.netlify.app/"
+          target="_blank"
+          class="project__img--area right__column hidden__right"
+        >
+          <img src="./IMG/Blogr.webp" alt="Blogr Page Preview" />
+        </a>
+      </div>
+      <div class="project__container d_f mw-medium">
+        <div class="project__text--area d_f fd_c left__column">
+          <h2 class="project__name header_secondary">Huddle</h2>
+          <p class="project__description">
+            Huddle is a platform used to effectively create communities to
+            easily connect creators to their users. It features a beautiful
+            interface and lots of exciting functionalities to keep everyone
+            engaged.
+          </p>
+          <div class="project__buttons d_f">
+            <a
+              class="btn btn--primary"
+              href="https://huddle-femc.netlify.app"
+              target="_blank"
+              >See Live</a
+            >
+            <a
+              class="btn btn--primary"
+              href="#"
+              target="_blank"
+              >View Source</a
+            >
+          </div>
+        </div>
+        <a
+          href="https://huddle-femc.netlify.app"
+          target="_blank"
+          class="project__img--area right__column"
+        >
+          <img src="./IMG/Huddle.webp" alt="Huddle Page preview" />
+        </a>
+      </div>
+      <div class="more__projects d_f jc_c">
+        <a
+          href="./HTML/projects.html"
+          class="more__projects--button ta_c mw-medium btn btn--primary"
+          >See more Projects</a
+        >
+      </div>
+    </div>
+    <!-- CALL TO ACTION SECTION -->
+    <section class="cta__section">
+      <div class="cta__container d_f fd_c ai_c mw-small">
+        <span class="cta__icon">
+          <lord-icon
+            src="https://cdn.lordicon.com/itykargr.json"
+            trigger="loop"
+            delay="800"
+            colors="primary:#ffffff"
+            style="width: 5rem; height: 5rem"
+          >
+          </lord-icon>
+        </span>
+        <h2 class="cta__header header_primary">Contact Me</h2>
+
+        <a href="tel:08145561089" class="cta__contact--link">
+          <lord-icon
+            src="https://cdn.lordicon.com/cnyeuzxc.json"
+            trigger="loop"
+            delay="800"
+            colors="primary:#ffffff"
+            style="width: 25px; height: 25px"
+          >
+          </lord-icon>
+          08145561089
+        </a>
+        <a href="mailto: mosesnmordi@gmail.com" class="cta__contact--link">
+          <lord-icon
+            src="https://cdn.lordicon.com/iicmtpsq.json"
+            trigger="loop"
+            delay="800"
+            colors="primary:#ffffff"
+            style="width: 25px; height: 25px"
+          >
+          </lord-icon>
+          mosesnmordi@gmail.com
+          </a>
+
+        <form
+          method="POST"
+          data-netlify="true"
+          name="contact"
+          class="cta__form d_f fd_c bottom__column hidden__bottom"
+        >
+          <input type="text" name="name" placeholder="Full Name" />
+          <input type="email" name="email" placeholder="Email Address" />
+          <textarea
+            name="message"
+            cols="30"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+          <button
+            class="cta_button btn btn--light"
+            type="submit"
+            value="Submit"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </section>
+    <!-- FOOTER SECTION -->
+    <section class="footer__section">
+      <div class="footer__container d_f fd_c ai_c">
+        <a href="#hero" class="back-top-top bottom__column hidden__bottom">
+          <lord-icon
+            src="https://cdn.lordicon.com/eflfmgmj.json"
+            trigger="loop"
+            delay="1000"
+            colors="primary:#ffffff"
+            style="width: 35px; height: 35px"
+          >
+          </lord-icon
+        ></a>
+        <div class="footer__socials d_f bottom__column hidden__bottom">
+          <a
+            href="#"
+            target="_blank"
+            class="footer__socials--link"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a
+            href="#"
+            target="_blank"
+            class="footer__socials--link"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="#"
+            target="_blank"
+            class="footer__socials--link"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </div>
+        <div class="dashed__line"></div>
+        <p class="copyright">
+          &copy 2022, Made by
+          <a href="#">Star, Inc</a>
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
